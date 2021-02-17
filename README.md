@@ -3,20 +3,24 @@ Simple Laravel Angular Login, Logout and Forgot Password with JWT token
 
 # Pre Requisite
 
-Node
-NPM
-Composer
-Laravel (PHP Framework)
-MAMP or XAMPP
-Angular
+Node<br />
+NPM<br />
+Composer<br />
+Laravel (PHP Framework)<br />
+MAMP or XAMPP<br />
+Angular<br />
 IDE or Code Editor
 
 # Installation
 
-Clone the Project
-After Cloning, run `composer install`
-Create .env . match it into your database credentials
-After installing the composer packages
+Clone the Project<br />
+After Cloning, run `composer install`.<br />
+You can use AWS SES for mailer if you do,<br />
+run `composer require aws/aws-sdk-php` for the SES<br />
+Create .env . match it into your database credentials<br />
+Setup the `MAIL_FROM_ADDRESS`, `AWS_ACCESS_KEY_ID`<br />
+Setup the `MAIL_FROM_NAME` via config<br />
+After installing the composer packages<br />
 Run `php artisan serve` for the backend
 
 # Frontend
