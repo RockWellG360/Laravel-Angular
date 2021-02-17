@@ -1,5 +1,23 @@
-# laravelAngular 
+# Laravel Angular By Rock Well Ramos
 Simple Laravel Angular Login, Logout and Forgot Password with JWT token
+
+# Pre Requisite
+
+Node
+NPM
+Composer
+Laravel (PHP Framework)
+MAMP or XAMPP
+Angular
+IDE or Code Editor
+
+# Installation
+
+Clone the Project
+After Cloning, run `composer install`
+Create .env . match it into your database credentials
+After installing the composer packages
+Run `php artisan serve` for the backend
 
 # Frontend
 
