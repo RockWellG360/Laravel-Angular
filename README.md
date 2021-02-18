@@ -1,7 +1,7 @@
 # Laravel Angular By Rock Well Ramos
 Simple Laravel Angular Login, Logout and Forgot Password with JWT token
 
-# Prerequisite
+# Prerequisites
 
 Node<br />
 NPM<br />
