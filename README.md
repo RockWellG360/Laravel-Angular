@@ -28,6 +28,11 @@ After installing the composer packages<br />
 Run `php artisan migrate` for the tables<br />
 Run `php artisan serve` for the backend
 
+# Usage
+
+After following instructions, set the angular api endpoint url to your api’s url via `cd frontend`
+run `ng serve` to start the development server for angular
+
 # Frontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
