@@ -13,7 +13,9 @@ background-color: #d3d3d3;
 font-family: 'Oxygen', sans-serif;
 }
 
-
+.main{
+margin-top: 8%;
+}
 
 h1.title {
 font-size: 50px;
