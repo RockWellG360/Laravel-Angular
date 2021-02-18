@@ -25,6 +25,7 @@ Then, open .env and add the mailtrap details.<br />
 
 Create .env . match it into your database credentials and the SES<br />
 After installing the composer packages<br />
+Run `php artisan migrate` for the tables
 Run `php artisan serve` for the backend
 
 # Frontend
