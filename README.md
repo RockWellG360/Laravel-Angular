@@ -1,7 +1,7 @@
 # Laravel Angular By Rock Well Ramos
 Simple Laravel Angular Login, Logout and Forgot Password with JWT token
 
-# Pre Requisite
+# Prerequisite
 
 Node<br />
 NPM<br />
@@ -14,9 +14,15 @@ IDE or Code Editor
 # Installation
 
 Clone the Project<br />
-After Cloning, run `composer install`.<br />
+After Cloning, run `composer install`.<br /><br />
 You can use AWS SES for mailer if you do,<br />
 run `composer require aws/aws-sdk-php` for the SES<br />
+
+For Mailtrap<br />
+To test the mails sending across the development environment, [create the Mailtrap account](https://mailtrap.io/).<br />
+Go to mailtrap dashboard, click on the small gear icon, copy the username and password from the SMTP Settings tab.<br />
+Then, open .env and add the mailtrap details.<br />
+
 Create .env . match it into your database credentials and the SES<br />
 After installing the composer packages<br />
 Run `php artisan serve` for the backend
@@ -40,11 +46,3 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
