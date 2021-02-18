@@ -17,9 +17,7 @@ Clone the Project<br />
 After Cloning, run `composer install`.<br />
 You can use AWS SES for mailer if you do,<br />
 run `composer require aws/aws-sdk-php` for the SES<br />
-Create .env . match it into your database credentials<br />
-Setup the `MAIL_FROM_ADDRESS`, `AWS_ACCESS_KEY_ID`<br />
-Setup the `MAIL_FROM_NAME` via config<br />
+Create .env . match it into your database credentials and the SES<br />
 After installing the composer packages<br />
 Run `php artisan serve` for the backend
 
