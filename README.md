@@ -14,7 +14,8 @@ IDE or Code Editor
 # Installation
 
 Clone the Project<br />
-After Cloning, run `composer install`.<br /><br />
+After Cloning, run `composer install`.<br />
+run `npm install` for the NodeJS<br />
 You can use AWS SES for mailer if you do,<br />
 run `composer require aws/aws-sdk-php` for the SES<br />
 
